@@ -1,0 +1,15 @@
+package cランク;
+import java.util.Scanner.*;
+
+public class Code35_1 {
+
+
+	public static void main(String[] args) {
+
+		int N = new java.util.Scanner(System.in).nextInt();
+		int M = new java.util.Scanner(System.in).nextInt();
+
+
+	}
+
+}

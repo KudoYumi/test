@@ -1,0 +1,22 @@
+package zoho20_17;
+
+class Fighter extends Human{
+	int realDamage;
+
+	Fighter(String name){
+		super(name,"戦士",100,0,1.5);
+	}
+
+
+	public void attack(Monster m) {
+		System.out.println(name+"は剣を振り下ろした");
+
+		realDamage = (int)((new java.util.Random().nextInt(10)+1)*dmg);
+		//実際に与えるダメージを計算
+
+		System.out.println
+		(name+"はモンスターに"+realDamage+"与えた");
+		m.hp -= realDamage;
+
+	}
+}

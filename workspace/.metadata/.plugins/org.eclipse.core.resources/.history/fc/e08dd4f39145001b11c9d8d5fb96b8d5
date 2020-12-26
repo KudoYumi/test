@@ -1,0 +1,27 @@
+package zoho16_2;
+
+class Fighter {
+
+	String job;
+	String name;
+	int hp;
+	int dmg;
+
+
+	Fighter(String job,String name,int hp){
+		this.job = job;
+		this.name = name;
+		this.hp = hp;
+	}
+
+	void run() {
+		System.out.println("モンスターから逃げ出した");
+	}
+
+	void attack(Monster m) {
+		System.out.println(job+name+"の攻撃");
+		dmg = new java.util.Random().nextInt(10)+1;
+
+		System.out.println("モンスターに"+dmg+"ポイントのダメージ");
+	}
+}

@@ -1,0 +1,7 @@
+package zohoRPGボツ;
+
+class Hero {
+	String name;
+	String job;
+	int hp;
+}

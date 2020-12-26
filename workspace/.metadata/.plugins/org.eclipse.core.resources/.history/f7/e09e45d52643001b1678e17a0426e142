@@ -1,0 +1,12 @@
+package code8;
+
+public class Animal {
+	public String name;
+	public int Age;
+
+	public void showProfile() {
+		System.out.println
+		("この子の名前は"+name+"年齢は"+Age+"です");
+	}
+
+}

@@ -1,0 +1,31 @@
+package zohoRPG1_1;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Fighter f = new Fighter("佐藤");
+		Monster m = new Monster(50);
+		int select;
+
+		System.out.println("モンスターが現れた");
+
+
+		Exit:
+		while(m.hp>0) {
+			System.out.print("[1:たたかう][0:にげる]>");
+
+			select = new java.util.Scanner(System.in).nextInt();
+
+			switch(select) {
+			case 1:
+				f.attack(m);
+				if(m.hp<=0) {
+					System.out.println("モンスター倒した");
+					break;
+				}
+				break;
+			}
+		}
+	}
+
+}

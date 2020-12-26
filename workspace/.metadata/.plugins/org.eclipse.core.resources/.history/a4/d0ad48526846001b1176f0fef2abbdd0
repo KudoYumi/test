@@ -1,0 +1,5 @@
+package rPG_portfolioSimple1;
+
+public class Weapon extends Item{ //武器はアイテムの一種とした
+
+}

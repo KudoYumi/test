@@ -1,0 +1,7 @@
+package rPG_portfolio;
+
+public class Monster {//簡単のため、名前とHPとMP持つことくらいにする。
+	String name;
+
+
+}

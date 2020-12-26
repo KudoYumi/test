@@ -1,0 +1,17 @@
+package zoho19_2;
+
+public class Student extends Member{
+	private String studentId;
+
+	//コンストラクタ
+	public Student(int id,String nm,String stId) {
+		super(id,nm);
+		this.studentId = stId;
+	}
+
+
+	//インスタンスメソッド
+	public int payment() { //オーバーライド
+		return (int)(this.monthlyPrice*1.08*0.8);
+	}
+}

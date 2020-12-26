@@ -1,0 +1,16 @@
+package zoho20_17;
+
+public class Main2 {
+	static Human[] humans = new Human[3];
+
+	humans[0] = new Fighter("佐藤");
+	humans[1] = new Wizard("鈴木");
+	humans[2] = new Soryo("田中");
+
+
+	public static void main(String[] args) {
+		System.out.println(humans[0].name);
+
+	}
+
+}

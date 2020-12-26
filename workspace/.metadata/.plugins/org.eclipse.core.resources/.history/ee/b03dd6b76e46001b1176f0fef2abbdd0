@@ -1,0 +1,11 @@
+package rPG_portfolioSimple1;
+
+class BlackMagic{
+	String name;
+	int dmg;
+
+	BlackMagic(String name,int dmg){
+		super(name);
+		this.dmg = dmg;
+	}
+}

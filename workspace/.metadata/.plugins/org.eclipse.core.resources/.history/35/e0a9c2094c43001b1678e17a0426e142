@@ -1,0 +1,5 @@
+package rPG_portfolio;
+
+class Player extends Character{
+
+}

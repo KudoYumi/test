@@ -1,0 +1,13 @@
+package zohoRPG1_1;
+
+class Fighter {
+	String name;
+	int hp;
+	int dmg;
+
+	Fighter(String name,int hp,int dmg){
+		this.name = name;
+		this.hp = hp;
+		this.dmg = new java.util.Random().nextInt(10)+1;
+	}
+}

@@ -1,0 +1,7 @@
+package rPG_portfolio;
+
+class Weapon {
+	String name;
+	int weapon_dmg;
+
+}

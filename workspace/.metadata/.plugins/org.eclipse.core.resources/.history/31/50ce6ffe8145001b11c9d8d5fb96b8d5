@@ -1,0 +1,6 @@
+package rPG_portfolioSimple;
+
+public class Item {
+	final String name;
+
+}

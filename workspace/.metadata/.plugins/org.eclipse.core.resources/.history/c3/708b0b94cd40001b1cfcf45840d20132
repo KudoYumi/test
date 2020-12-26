@@ -1,0 +1,33 @@
+package zoho10_2;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String[] number = {"1305","0322","4732","8091","1124"};
+
+		System.out.print("入力して");
+		String inCode = new java.util.Scanner(System.in).nextLine();
+		int flg = 0;
+
+		if(inCode.equals("")) {
+			System.err.println("入力されていません");
+		}
+
+		for(int i=0; i<number.length; i++) {
+			if(inCode.equals(number[i])) {
+				flg = 1;
+
+			}else {
+				flg = 0;
+			}
+		}
+
+
+		if(flg==1) {
+			System.out.println("承認しました");
+		}else if(flg==0){
+			System.err.println("間違えてる");
+		}
+	}
+
+}

@@ -1,0 +1,11 @@
+package rPG_portfolio;
+
+class Weapon {
+	String name;
+	int weapon_dmg;
+
+	Weapon(String name,int dmg){
+		this.name = name;
+		this.weapon_dmg = dmg;
+	}
+}

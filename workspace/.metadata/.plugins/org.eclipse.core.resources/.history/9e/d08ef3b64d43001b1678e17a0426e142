@@ -1,0 +1,6 @@
+package rPG_portfolio;
+
+public abstract class Magic {
+	String name;
+
+}

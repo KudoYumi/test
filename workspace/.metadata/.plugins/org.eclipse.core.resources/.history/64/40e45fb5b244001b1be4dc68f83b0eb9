@@ -1,0 +1,9 @@
+package rPG_portfolio;
+
+public class HolyMagic extends Magic{ //回復魔法
+	int heal;
+
+	HolyMagic(String name){
+		super(name);
+	}
+}

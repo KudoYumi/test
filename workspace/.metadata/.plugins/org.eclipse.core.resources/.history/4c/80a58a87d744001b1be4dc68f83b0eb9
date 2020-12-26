@@ -1,0 +1,11 @@
+package zoho19_02;
+
+class Student extends Member{
+	String studentId;
+
+
+	Student(int id,String name,String studentId){
+		super(id,name);
+		this.studentId = studentId;
+	}
+}

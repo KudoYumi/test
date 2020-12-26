@@ -1,0 +1,21 @@
+package zoho20_17;
+
+class Fighter extends Human{
+
+	//super使ってフィールドを設定
+	Fighter(String name){
+		super(name,"戦士",100,0,1.5);
+	}
+
+	@Override
+	void attack(Monster m) {
+		System.out.println(name+"は剣を振り下ろした");
+
+		int Damage = (int)((new java.util.Random().nextInt(10)+1)*dmg);
+		System.out.println(name+"はモンスターに"+Damage+"与えた");
+		m.hp -= Damage;
+
+		if(m.hp<=0)
+			System.out.println(name+"がモンスター倒した");
+	}
+}

@@ -1,0 +1,9 @@
+package rPG_portfolioSimple1;
+
+public class BlackMagic extends Magic{
+	int dmg;
+
+	BlackMagic(String name){
+		super(name);
+	}
+}

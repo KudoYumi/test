@@ -1,0 +1,5 @@
+package zohoRPG1_3;
+
+class Monster {
+	int hp;
+}

@@ -1,0 +1,10 @@
+package rPG_portfolioSimple1;
+
+class Player extends Human{
+
+
+	Player(String name,){
+		super(name);
+	}
+
+}

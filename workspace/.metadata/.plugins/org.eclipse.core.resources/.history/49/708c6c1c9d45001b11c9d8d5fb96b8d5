@@ -1,0 +1,13 @@
+package zoho20_16_3;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Fighter[] fighters = {new Fighter("山田",100),
+							new Fighter("鈴木",90),new Fighter("田中",120)};
+
+		Monster m = new Monster(50);
+
+	}
+
+}

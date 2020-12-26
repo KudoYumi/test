@@ -1,0 +1,20 @@
+package zoho10;
+
+public class zoho10_2 {
+
+	public static void main(String[] args) {
+		String num[] = {"1305","0322","4732","8091","1124"};
+
+		System.out.print("暗証番号入力＞");
+		String input = new java.util.Scanner(System.in).nextLine();
+
+		//この中に入力した番号が存在すれば黒字でOKと出る
+
+		for(String str:num) {
+			if(input.equals(str)) {
+				flg = 1;
+			}
+		}
+	}
+
+}

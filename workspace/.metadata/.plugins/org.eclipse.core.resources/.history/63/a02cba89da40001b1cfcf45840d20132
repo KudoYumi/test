@@ -1,0 +1,30 @@
+package zohoRPG1_2;
+
+class Fighter {
+	String name;
+	String job;
+	int hp;
+	int dmg;
+
+	Fighter(String name,String job){
+		this.name = name;
+		this.job = job;
+		this.hp = 400;
+	}
+
+	void attack(Monster m) {
+		dmg = new java.util.Random().nextInt(10)+1;
+		System.out.println(name+"の攻撃");
+
+		System.out.println("モンスターに"+dmg+"ダメージ与えた");
+		m.hp -= dmg;
+		if(m.hp<=0) {
+			System.out.println("モンスター倒した");
+		}
+	}
+
+
+	}
+
+
+}

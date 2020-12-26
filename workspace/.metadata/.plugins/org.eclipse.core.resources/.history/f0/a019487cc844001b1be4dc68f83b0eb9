@@ -1,0 +1,25 @@
+package arrayList1;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class List04 {
+
+	public static void main(String[] args) {
+		ArrayList<String> names = new ArrayList<>();
+
+		names.add("おはよう");
+		names.add("おはようございます");
+		names.add("こんにちは");
+		names.add("ハロー");
+		names.add("こんばんわ");
+		names.add("お疲れ様");
+
+		Iterator<String> it = names.iterator();
+		while(it.hasNext()) {
+			System.out.println(it);
+		}
+
+	}
+
+}

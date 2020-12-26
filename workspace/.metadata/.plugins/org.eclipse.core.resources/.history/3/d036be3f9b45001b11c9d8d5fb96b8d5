@@ -1,0 +1,12 @@
+package zoho20_16_3;
+
+class Fighter { //ざっくり言って全員戦士
+	String job;
+	String name;
+	int Dmg;
+
+	Fighter(String name,int Dmg){
+		this.job = "戦士";
+
+	}
+}

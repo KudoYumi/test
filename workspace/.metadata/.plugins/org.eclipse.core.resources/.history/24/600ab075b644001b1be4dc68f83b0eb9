@@ -1,0 +1,11 @@
+package rPG_portfolio;
+
+public abstract class Magic { //簡単のため攻撃魔法しかないとする
+	String name;
+	int dmg;
+	boolean status; //ステータスは毒、沈黙(魔法使えない)、即死
+
+	Magic(String name){
+		this.name = name;
+	}
+}

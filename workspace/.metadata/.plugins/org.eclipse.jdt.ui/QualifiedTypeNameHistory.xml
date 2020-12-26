@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="code06_02.CalcLogic"/>
+<fullyQualifiedTypeName name="code08_02.Hero"/>
+<fullyQualifiedTypeName name="code12_05.Monster"/>
+<fullyQualifiedTypeName name="code14_13.Hero"/>
+<fullyQualifiedTypeName name="java.util.AbstractCollection"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
+</qualifiedTypeNameHistroy>

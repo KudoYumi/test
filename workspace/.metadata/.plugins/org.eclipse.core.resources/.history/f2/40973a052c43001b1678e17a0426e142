@@ -1,0 +1,26 @@
+package equalsについて;
+
+class Character {
+	String name;
+	String job;
+	int hp;
+	int level;
+
+	Character(String name,String job,int hp,int level){
+		this.name = name;
+		this.job = job;
+		this.hp = hp;
+		this.level = level;
+	}
+}
+
+
+class Main{
+	public static void main(String[] args) {
+		Character c1 = new Character("工藤","SE",1000,50);
+		Character c2 = new Character("工藤","SE",2000,80);
+
+		System.out.println(c1==c2);
+		System.out.println(c1.equals(c2));
+	}
+}

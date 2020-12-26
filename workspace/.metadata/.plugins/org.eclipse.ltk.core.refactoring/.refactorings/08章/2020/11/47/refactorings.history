@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Matango.java&apos; to &apos;13章/src/code13_01&apos;&#x0D;&#x0A;- 元のプロジェクト: &apos;08章&apos;&#x0D;&#x0A;- 宛先要素: &apos;13章/src/code13_01&apos;&#x0D;&#x0A;- オリジナル要素: &apos;code08_15.Matango.java&apos;" description="コンパイル単位をコピー" destination="=13章/src&lt;code13_01" element1="/src&lt;code08_15{Matango.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1605490237088" units="1" version="1.0"/>
+</session>

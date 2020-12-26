@@ -1,0 +1,9 @@
+package rPG_portfolioSimple1;
+
+public interface Creature {
+	final static int recovery=100;
+	/* ケアルのデフォルトの補正前の回復量を
+	 * 敵、味方ともに100と固定した。
+	 */
+
+}

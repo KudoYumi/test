@@ -1,0 +1,20 @@
+package rPG_portfolio;
+
+public class Character {
+	String job;
+	String name;
+	int hp;
+	final int MaxHp;
+	int mp;
+	final int MaxMp;
+
+
+	Character(String job,String name,int hp,int MaxHp,int MaxHp,int mp,int MaxMp){
+		this.job = job;
+		this.name = name;
+		this.hp = hp;
+		this.MaxHp = MaxHp;
+		this.mp = mp;
+		this.MaxMp = MaxMp;
+	}
+}

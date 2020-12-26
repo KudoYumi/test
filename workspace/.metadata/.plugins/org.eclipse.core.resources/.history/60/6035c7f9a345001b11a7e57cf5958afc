@@ -1,0 +1,14 @@
+package zoho20_17;
+
+class Fighter extends Human{
+	int realDamage;
+
+	Fighter(String name){
+		super(name,"戦士",100,0,1.5);
+	}
+
+	public void attack(Monster m) {
+		System.out.println(name+"は剣を振り下ろした");
+
+	}
+}

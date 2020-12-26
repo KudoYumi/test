@@ -1,0 +1,8 @@
+package zoho20_17;
+
+public class Soryo extends Human{
+
+	Soryo(String name,String job,int hp,int mp,double dmg){
+		super()
+	}
+}

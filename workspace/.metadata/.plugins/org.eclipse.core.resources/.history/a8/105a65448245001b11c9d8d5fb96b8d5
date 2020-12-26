@@ -1,0 +1,15 @@
+package rPG_portfolioSimple;
+
+class Weapon extends Item{
+	int weapon_dmg;
+	boolean reach; //対空機能あるかどうか
+
+
+	Weapon(int dmg,boolean reach){
+
+		this.weapon_dmg = dmg;
+		this.reach = reach;
+	}
+
+
+}

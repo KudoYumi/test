@@ -1,0 +1,9 @@
+package rPG_portfolioSimple1;
+
+public abstract class Magic {
+	String name;
+
+	Magic(String name){
+		this.name = name;
+	}
+}

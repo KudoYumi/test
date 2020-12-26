@@ -1,0 +1,29 @@
+package zoho10_1;
+
+class TestScore {
+	private int number;
+	private String name;
+	double score;
+	String judge;
+
+	TestScore(int num,String name,double score){
+		this.number = num;
+		this.name = name;
+		this.score = score;
+
+		if(this.score>=80) {
+			judge = "ランクA";
+		}else if(this.score>=60) {
+			judge = "ランクB";
+		}else {
+			judge = "ランクC";
+		} //これでnewした時点でjudgeが設定される
+	}
+
+	double getScore() {return this.score;}
+
+	void show() {
+		System.out.println
+		(number+"\t"+name+"\t"+score+"\t"+judge);
+	}
+}

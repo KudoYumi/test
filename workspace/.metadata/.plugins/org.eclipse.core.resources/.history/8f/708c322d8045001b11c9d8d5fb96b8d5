@@ -1,0 +1,7 @@
+package rPG_portfolio;
+
+public class Status {
+	boolean poison;
+	boolean silent;
+
+}

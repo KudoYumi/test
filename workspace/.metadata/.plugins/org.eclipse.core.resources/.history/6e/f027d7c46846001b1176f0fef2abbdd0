@@ -1,0 +1,6 @@
+package rPG_portfolioSimple1;
+
+class Monster implements Creature{
+	int hp;
+
+}

@@ -1,0 +1,14 @@
+package rPG_portfolioSimple1;
+
+class Player extends Human{
+	int hp,mp,maxHp,maxMp;
+	Item item;
+	Magic magic;
+	int Dmg;
+
+	Player(String name,int hp,int maxHp,
+			int mp,int maxMp,Magic magic,int Dmg){
+		super(name); //親のコンストラクタ呼び出し
+	}
+
+}

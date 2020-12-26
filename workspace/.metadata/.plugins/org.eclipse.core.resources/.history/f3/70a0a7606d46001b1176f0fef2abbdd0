@@ -1,0 +1,21 @@
+package rPG_portfolioSimple1;
+
+class Monster implements Creature{
+	String name;
+	int hp,mp,maxHp,maxMp;
+	Magic magic; //魔法使わない敵はここをnullとすればよい
+	int Dmg;
+
+	void run() {
+		System.out.println(name+"が逃げた");
+		System.out.println("勝利！！");
+	}
+
+	void heal(HolyMagic hm) {
+		int healPoint = maxMp*(hm.recovery); //魔力補正あり
+		int actualRecovery = Math.min(maxHp-hp, healPoint);
+
+		hp += actualRecovery;
+	}
+
+}

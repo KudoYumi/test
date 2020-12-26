@@ -1,0 +1,13 @@
+package zoho20_17;
+
+public class Soryo extends Human{
+
+	Soryo(String name){
+		super(name,"僧侶",50,50,0.5);
+	}
+
+	@Override
+	public void attack(Monster m) {
+		System.out.println(name+"は呪文唱えた");
+	}
+}

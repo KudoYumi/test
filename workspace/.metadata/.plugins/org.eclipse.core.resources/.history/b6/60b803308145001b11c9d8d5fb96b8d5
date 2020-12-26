@@ -1,0 +1,24 @@
+package rPG_portfolioSimple;
+
+class Player extends Character{ //操作キャラ
+	Weapon buki;
+	int Dmg;
+
+	Player(String name,int hp,int MaxHp,int mp,int MaxMp,int Dmg,Weapon w){
+		super(name,hp,MaxHp,mp,MaxMp);
+		this.Dmg = Dmg;
+		this.buki = w;
+	}
+
+	void use(Item i) {
+
+	}
+
+	void attack(Monster[] m) { //buki使ってmを攻撃
+		if(this.buki!=null) {
+
+		}
+	}
+
+	void MagicAttack() {}
+}

@@ -1,0 +1,9 @@
+package rPG_portfolio;
+
+protected class Character {
+	String name;
+
+	protected Character(String name){
+		this.name = name;
+	}
+}

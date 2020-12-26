@@ -1,0 +1,9 @@
+package zoho19_02;
+
+class Employee extends Member{
+	String officeName;
+
+	Employee(int id,String name){
+		super(id,name);
+	}
+}

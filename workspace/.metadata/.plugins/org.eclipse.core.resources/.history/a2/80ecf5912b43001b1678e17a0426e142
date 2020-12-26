@@ -1,0 +1,8 @@
+package equalsについて;
+
+class Character {
+	String name;
+	String job;
+	int hp;
+	int level;
+}

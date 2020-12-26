@@ -1,0 +1,21 @@
+package zoho20_17;
+
+class Wizard extends Human{
+
+	Wizard(String name){
+		super(name,"魔術師",50,50,0.5);
+	}
+
+	@Override
+	void attack(Monster m) {
+		System.out.println(name+"は呪文唱えた");
+
+		int Damage = (int)((new java.util.Random().nextInt(10)+1)*dmg);
+		System.out.println(name+"はモンスターに"+Damage+"与えた");
+		m.hp -= Damage;
+
+		if(m.hp<=0)
+			System.out.println(name+"がモンスター倒した");
+	}
+
+}

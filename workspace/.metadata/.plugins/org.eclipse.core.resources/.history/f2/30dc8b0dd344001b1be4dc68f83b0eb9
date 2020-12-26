@@ -1,0 +1,9 @@
+package set1;
+
+public class Set01 {
+
+	public static void main(String[] args) {
+		Set<String> colors = new
+	}
+
+}

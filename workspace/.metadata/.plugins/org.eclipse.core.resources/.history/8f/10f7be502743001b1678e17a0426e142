@@ -1,0 +1,8 @@
+package code8;
+
+public class Cat extends Animal{
+
+	void sleep() {
+		System.out.println("スースー");
+	}
+}

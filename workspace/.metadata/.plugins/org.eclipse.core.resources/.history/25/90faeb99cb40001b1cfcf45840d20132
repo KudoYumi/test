@@ -1,0 +1,24 @@
+package zoho10_1;
+
+public class Main {
+
+	public static void main(String[] args) {
+		TestScore[] ts = new TestScore[5];
+
+		ts[0] = new TestScore(1,"山田",70);
+		ts[1] = new TestScore(2,"鈴木",67);
+		ts[2] = new TestScore(3,"佐々木",85);
+		ts[3] = new TestScore(4,"田中",100);
+		ts[4] = new TestScore(5,"小林",34);
+
+		int sum = 0;
+		for(TestScore t:ts) {
+			t.show();
+			sum += t.getScore();
+		}
+
+		System.out.println("平均点:"+sum/ts.length+"点");
+
+	}
+
+}

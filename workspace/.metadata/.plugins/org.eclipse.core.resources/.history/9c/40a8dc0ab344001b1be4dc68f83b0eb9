@@ -1,0 +1,23 @@
+package rPG_portfolio;
+
+public class Monster { //簡単のため、名前とHPとMP持つことくらいにする。
+	String name;
+	int hp;
+	int MaxHp;
+	int mp;
+	int MaxMp;
+	int dmg;
+
+	Monster(String name,int hp,int MaxHp,int mp,int MaxMp,int dmg){
+		this.name = name;
+		this.hp = hp;
+		this.MaxHp = MaxHp;
+		this.mp = mp;
+		this.MaxMp = MaxMp;
+	}
+
+	void attack(Player p) {
+
+	}
+
+}

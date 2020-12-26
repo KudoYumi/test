@@ -1,0 +1,21 @@
+package zoho16_2;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Fighter f = new Fighter("戦士","山田",100);
+		Monster m = new Monster(50);
+
+		System.out.println("モンスター現れた");
+		System.out.print
+		(f.job+f.name+"はどうする？[1:戦う][0:逃げる]>>");
+
+		int select = new java.util.Scanner(System.in).nextInt();
+
+
+		while(m.hp>0) {
+
+		}
+	}
+
+}

@@ -1,0 +1,25 @@
+package rPG_portfolioSimple;
+
+class Player extends Character{ //操作キャラ
+	Item item;
+	int Dmg;
+
+	Player(String name,int hp,int MaxHp,int mp,int MaxMp,int Dmg,){
+		super(name,hp,MaxHp,mp,MaxMp);
+		this.Dmg = Dmg;
+		this.buki = w;
+	}
+
+	void use(Item i) {
+
+	}
+
+//モンスターが1体の時もあれば複数の時もあるからArrayList使った方がいいんでは
+	void attack(Monster[] monsters) { //buki使ってmを攻撃
+		if(this.buki!=null) { //武器装備してない状態
+
+		}
+	}
+
+	void MagicAttack() {}
+}

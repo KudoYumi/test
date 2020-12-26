@@ -1,0 +1,9 @@
+package zoho20_16_3;
+
+class Fighter {
+	String job;
+	String name;
+	int Dmg;
+
+
+}

@@ -1,0 +1,22 @@
+package zoho20_17;
+
+public class Battle {
+
+	public static void main(String[] args) {
+		Human[] players = new Human[3];
+		Monster m = new Monster("キノコ",200);
+
+		players[0] = new Fighter("佐藤");
+		players[1] = new Wizard("鈴木");
+		players[2] = new Soryo("田中");
+
+		System.out.println("モンスターだ！");
+
+		while(m.hp>0) {
+			for(Human h:players) {
+
+			}
+		}
+	}
+
+}

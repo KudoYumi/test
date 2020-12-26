@@ -1,0 +1,24 @@
+package zoho19_02;
+
+class Employee extends Member{
+	private String officeName;
+
+	Employee(int id,String name,String officeName){
+		super(id,name);
+		this.officeName = officeName;
+	}
+
+	@Override
+	public String kind() {
+		return "法人";
+	}
+
+	@Override
+	public int payment() {
+		return (int)(super.getMonthlyPrice()*1.08*0.5);
+	}
+
+	public String getOfficeName() {
+		return officeName;
+	}
+}

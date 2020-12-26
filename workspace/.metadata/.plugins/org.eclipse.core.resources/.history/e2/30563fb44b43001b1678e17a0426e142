@@ -1,0 +1,15 @@
+package rPG_portfolio;
+
+public class Character {
+	String job;
+	String name;
+	int hp;
+	final int MaxHp;
+	int mp;
+	final int MaxMp;
+
+
+	Character(String name){
+		this.name = name;
+	}
+}

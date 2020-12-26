@@ -1,0 +1,17 @@
+package arrayList1;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+public class List05 {
+
+	public static void main(String[] args) {
+		List<String> list = new ArrayList<>();
+		List<Hero> lisT = new LinkedList<>();
+
+
+		ArrayList<String> list1
+	}
+
+}

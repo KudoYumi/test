@@ -1,0 +1,15 @@
+package zoho13_01;
+
+class TestScore {
+	int number;
+	String name;
+	int score;
+	String judge;
+
+	TestScore(int num,String name,int score,String judge){
+		this.number = num;
+		this.name = name;
+		this.score = score;
+		this.judge = judge;
+	}
+}

@@ -1,0 +1,8 @@
+package zoho20_17;
+
+class Fighter extends Human{
+
+	Fighter(String name,String job,int hp,int mp,double dmg){
+
+	}
+}

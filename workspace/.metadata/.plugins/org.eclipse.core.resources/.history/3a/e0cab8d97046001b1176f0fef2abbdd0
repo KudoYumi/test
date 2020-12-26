@@ -1,0 +1,5 @@
+package rPG_portfolioSimple1;
+
+public interface Creature {
+	final static int recovery=100;
+}

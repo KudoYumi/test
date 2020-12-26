@@ -1,0 +1,9 @@
+package rPG_portfolio;
+
+class Player extends Character{
+	Weapon buki;
+
+	Player(String job,String name,int hp,int MaxHp,int mp,int MaxMp,Weapon w){
+		super(job,name,hp,MaxHp,mp,MaxMp);
+	}
+}

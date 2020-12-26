@@ -1,0 +1,16 @@
+package zohoRPG1_3;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Fighter[] fight =
+			{new Fighter("山田",250),
+					new Fighter("鈴木",200),
+						new Fighter("田中",280)};
+
+		Monster m = new Monster(50);
+
+
+	}
+
+}

@@ -1,0 +1,6 @@
+package rPG_portfolioSimple;
+
+class HolyMagic extends Magic{
+
+	HolyMagic
+}

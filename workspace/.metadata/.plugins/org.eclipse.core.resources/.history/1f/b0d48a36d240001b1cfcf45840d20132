@@ -1,0 +1,19 @@
+package zohoRPG1_1;
+
+class Fighter {
+	String name;
+	int hp;
+	int dmg;
+
+	Fighter(String name){
+		this.name = name;
+		hp = 400;
+		dmg = new java.util.Random().nextInt(10)+1;
+	}
+
+
+	public void attack(Monster m) {
+		dmg = new java.util.Random().nextInt(10)+1;
+		System.out.println(name+"はモンスターに"+dmg+"与えた");
+	}
+}

@@ -1,0 +1,9 @@
+package rPG_portfolio;
+
+public class Character {
+	String name;
+
+	Character(String name){
+		this.name = name;
+	}
+}

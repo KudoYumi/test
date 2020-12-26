@@ -1,0 +1,10 @@
+package arrayList1;
+
+import java.util.ArrayList;
+
+public class List02 {
+	ArrayList<Integer> points = new ArrayList<>();
+
+	points.add(10);
+
+}

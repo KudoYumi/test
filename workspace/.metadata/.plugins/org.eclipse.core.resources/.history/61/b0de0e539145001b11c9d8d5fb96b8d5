@@ -1,0 +1,15 @@
+package zoho16_2;
+
+class Fighter {
+
+	String name;
+	int hp;
+	int dmg;
+
+
+	Fighter(String name,int hp,int dmg){
+		this.name = name;
+		this.hp = hp;
+		this.dmg = dmg;
+	}
+}

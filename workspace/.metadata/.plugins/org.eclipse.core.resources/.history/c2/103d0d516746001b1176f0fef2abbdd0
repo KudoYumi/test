@@ -1,0 +1,10 @@
+package rPG_portfolioSimple1;
+
+public class HolyMagic extends Magic{
+	int recovery;
+
+	HolyMagic(String name,int recov){
+		super(name);
+		this.recovery = recov;
+	}
+}

@@ -1,0 +1,8 @@
+package zohoRPG1_2;
+
+public class Fighter {
+	String name;
+	String job;
+	int hp;
+
+}

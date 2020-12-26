@@ -1,0 +1,19 @@
+package zoho12;
+
+public class Zoho12_3_bekai {
+
+	public static void main(String[] args) {
+		System.out.print("検索したい住所入力＞");
+		String input_adr = new java.util.Scanner(System.in).nextLine();
+
+		//引数なし、住所を引数とするもの、住所と性別を引数とするものを定義
+
+		System.out.print("性別入力＞");
+		String input_gender = new java.util.Scanner(System.in).nextLine();
+
+
+	}
+
+	//もっとシンプルに　引数２つで解決！
+
+}

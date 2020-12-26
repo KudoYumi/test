@@ -1,0 +1,13 @@
+package equalsについて;
+
+public class String型 {
+
+	public static void main(String[] args) {
+		String s1 = "アロハ～";
+		String s2 = "アロハ～";
+
+		System.out.println(s1==s2);
+		System.out.println(s1.equals(s2));
+	}
+
+}

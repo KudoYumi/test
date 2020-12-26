@@ -1,0 +1,43 @@
+package zoho20_17;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Human[] humans = new Human[3];
+
+		humans[0] = new Fighter("佐藤");
+		humans[1] = new Wizard("鈴木");
+		humans[2] = new Soryo("田中");
+
+		Monster m = new Monster(100);
+		int num;
+
+		System.out.println("モンスター現れた");
+
+		Exit:
+		while(m.hp>0) {
+
+			for(Human h:humans) {
+				System.out.print(h.job+h.name+"はどうする？");
+				System.out.print("[1:たたかう][0:逃げる]>>");
+
+				num = new java.util.Scanner(System.in).nextInt();
+
+
+				switch(num) {
+				case 0:
+					h.run();
+					break Exit; //だれかがrunしたら即座にこのプログラム中止
+
+				case 1:
+					h.attack(m);
+					break;
+					System.out.println();
+				}
+			}
+		}
+	}
+
+
+
+}

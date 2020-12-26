@@ -1,0 +1,20 @@
+package zohoRPG1_2;
+
+public class Fighter {
+	String name;
+	String job;
+	int hp;
+	int dmg;
+
+	Fighter(String name,String job){
+		this.name = name;
+		this.job = job;
+		this.hp = 400;
+	}
+
+	void attack() {
+
+	}
+
+
+}

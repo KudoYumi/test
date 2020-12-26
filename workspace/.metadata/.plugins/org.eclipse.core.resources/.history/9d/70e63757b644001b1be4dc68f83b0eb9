@@ -1,0 +1,11 @@
+package rPG_portfolio;
+
+public abstract class Magic { //簡単のため攻撃魔法しかないとする
+	String name;
+	int dmg;
+
+
+	Magic(String name){
+		this.name = name;
+	}
+}

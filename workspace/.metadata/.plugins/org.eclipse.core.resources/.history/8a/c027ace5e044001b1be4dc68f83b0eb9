@@ -1,0 +1,24 @@
+package rPG_portfolio;
+
+public class Monster { //簡単のため、名前とHPとMP持つことくらいにする。
+	String name;
+	int hp;
+	int MaxHp;
+	int mp;
+	int MaxMp;
+	int dmg;
+
+	Monster(String name,int hp,int MaxHp,int mp,int MaxMp,int dmg){
+		this.name = name;
+		this.hp = hp;
+		this.MaxHp = MaxHp;
+		this.mp = mp;
+		this.MaxMp = MaxMp;
+		this.dmg = dmg;
+	}
+
+	void attack(Player p) {
+		//全体とかに攻撃の場合ってどのような処理？いちいち一人ずつって処理は美しくない
+	}
+
+}

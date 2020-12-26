@@ -1,0 +1,11 @@
+package rPG_portfolioSimple1;
+
+class Magic{ //黒魔法に限定
+	String name;
+	int dmg;
+
+	BlackMagic(String name,int dmg){
+		this.name = name;
+		this.dmg = dmg;
+	}
+}

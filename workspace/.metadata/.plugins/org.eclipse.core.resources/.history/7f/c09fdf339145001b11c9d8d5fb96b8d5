@@ -1,0 +1,8 @@
+package zoho16_2;
+
+class Fighter {
+
+	String name;
+	int hp;
+	int dmg;
+}

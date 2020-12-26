@@ -1,0 +1,11 @@
+package zoho19_02;
+
+class Member {
+	private int id;
+	private String name;
+	private int monthlyPrice;
+
+	Member(int id,String name){
+
+	}
+}

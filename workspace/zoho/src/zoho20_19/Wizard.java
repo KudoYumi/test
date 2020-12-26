@@ -1,0 +1,37 @@
+package zoho20_19;
+
+class Wizard extends Human{
+	int realDamage;
+	int magicDamage;
+
+	Wizard(String name){
+		super(name,"魔術師",50,50,0.5);
+	}
+
+	public void attack(Monster m) {
+		System.out.println(name+"は杖を振った");
+
+		realDamage = (int)((new java.util.Random().nextInt(10)+1)*dmg);
+		//実際に与えるダメージを計算
+
+		System.out.println
+		(name+"はモンスターに"+realDamage+"与えた");
+		m.hp -= realDamage;
+	}
+
+	public void magic(Monster m) {
+		if(mp>=10) {
+			System.out.println(name+"は呪文唱えた");
+			magicDamage = (new java.util.Random().nextInt(10)+1)*10;
+
+			System.out.println("モンスターに"+magicDamage+"与えた");
+			m.hp -= magicDamage;
+
+			mp -= 10;
+
+		}else {
+			System.out.println("MPが足りない");
+		}
+
+	}
+}

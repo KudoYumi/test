@@ -1,0 +1,10 @@
+package zoho19_2;
+
+public class Student extends Member{
+	String studentId;
+
+	//コンストラクタ
+	public Student(int id,String nm,String stId) {
+		super(id,nm);
+	}
+}

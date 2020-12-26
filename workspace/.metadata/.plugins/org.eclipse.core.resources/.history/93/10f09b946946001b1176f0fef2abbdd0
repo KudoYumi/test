@@ -1,0 +1,18 @@
+package rPG_portfolioSimple1;
+
+class Monster implements Creature{
+	String name;
+	int hp,mp,maxHp,maxMp;
+	Magic magic;
+	int Dmg;
+
+	void run() {
+		System.out.println(name+"が逃げた");
+		System.out.println("勝利！！");
+	}
+
+	void heal(HolyMagic hm) {
+		recovery
+	}
+
+}

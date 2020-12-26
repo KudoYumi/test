@@ -1,0 +1,25 @@
+package rPG_portfolioSimple1;
+
+class Player extends Human{
+	int hp,mp,maxHp,maxMp;
+	static Item item;//アイテムはプレイやパーティー全員で共有したい
+	Magic magic;
+	int Dmg;
+
+	Player(String name,int hp,int maxHp,int mp,int maxMp,Magic magic,int Dmg){
+		super(name); //親のコンストラクタ呼び出し
+	}
+
+	void run() {
+		System.out.println("戦闘から逃げた");
+	}
+
+
+	void die() {
+		hp = 0;
+		System.out.println(name+"は戦闘不能");
+	}
+
+
+
+}

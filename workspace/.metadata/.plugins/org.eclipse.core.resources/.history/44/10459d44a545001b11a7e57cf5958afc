@@ -1,0 +1,6 @@
+package zoho20_17;
+
+public class Wizard extends Human{
+	int realDamage;
+	int magicDamage;
+}

@@ -1,0 +1,21 @@
+package arrayList1;
+
+import java.util.ArrayList;
+
+public class List03 {
+
+	public static void main(String[] args) {
+		ArrayList<String> names = new ArrayList<>();
+
+	/*	names.add("おはよう");
+		names.add("おはようございます");
+		names.add("こんにちは");
+		names.add("ハロー");
+		names.add("こんまんわ");
+		names.add("お疲れ様"); */
+
+		System.out.println(names.size());
+		System.out.println(names.isEmpty());
+	}
+
+}

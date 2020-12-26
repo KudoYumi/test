@@ -1,0 +1,9 @@
+package zoho10_2;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String[] number = {"1305","0322","4732","8091","1124"};
+	}
+
+}

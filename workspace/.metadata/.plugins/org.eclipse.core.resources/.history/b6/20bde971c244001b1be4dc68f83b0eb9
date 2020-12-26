@@ -1,0 +1,6 @@
+package arrayList1;
+
+
+public class List02 {
+	ArrayList<Integer> points = new ArrayList<>;
+}

@@ -1,0 +1,6 @@
+package rPG_portfolio;
+
+public class Player_Chara extends Character{
+
+	Player_Chara()
+}

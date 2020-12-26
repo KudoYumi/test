@@ -1,0 +1,5 @@
+package rPG_portfolioSimple1;
+
+abstract class Human implements Creature{
+	String name;
+}

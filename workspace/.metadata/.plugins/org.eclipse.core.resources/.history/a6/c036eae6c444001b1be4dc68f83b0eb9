@@ -1,0 +1,11 @@
+package arrayList1;
+
+import java.util.ArrayList;
+
+public class List03 {
+
+	public static void main(String[] args) {
+		ArrayList<String> names = new ArrayList<>();
+	}
+
+}

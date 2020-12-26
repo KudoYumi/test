@@ -1,0 +1,7 @@
+package portfolio3_1;
+
+public interface Monster {
+	void run();
+	void attack(Player p);
+	void Magic(Player p);
+}

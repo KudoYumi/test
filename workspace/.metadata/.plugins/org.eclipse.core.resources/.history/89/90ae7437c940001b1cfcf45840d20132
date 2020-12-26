@@ -1,0 +1,8 @@
+package zoho13_01;
+
+public class TestScore {
+	int number;
+	String name;
+	int score;
+	String judge;
+}

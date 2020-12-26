@@ -1,0 +1,8 @@
+package zoho20_17;
+
+public class Fighter extends Human{
+
+	Fighter(String name){
+		super(name,"戦士",100,0,1.5);
+	}
+}

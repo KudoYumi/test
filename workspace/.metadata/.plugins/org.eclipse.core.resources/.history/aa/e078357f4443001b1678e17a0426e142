@@ -1,0 +1,11 @@
+package zoho20_17;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Human[] humans = new Human[3];
+
+
+	}
+
+}

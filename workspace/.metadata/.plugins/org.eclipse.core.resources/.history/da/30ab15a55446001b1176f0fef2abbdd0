@@ -1,0 +1,28 @@
+package zoho14_02;
+
+class Game {
+	int comNum;
+	int myNum;
+
+	public Game() {
+		comNum = new java.util.Random().nextInt(10);
+		//newした時点でcomNumに一桁の値がセットされる。
+	}
+
+	//インスタンスメソッド
+	public void playGame() {
+		System.out.print("好きな数字入力>");
+		myNum = new java.util.Scanner(System.in).nextInt();
+
+		System.out.println("\nあなた："+myNum);
+		System.out.println("コンピュータ："+comNum);
+
+		if(myNum==comNum) {
+			System.out.println("当たり");
+		}else {
+			System.out.println("はずれ");
+		}
+	}
+
+	//getter setterは省略
+}
