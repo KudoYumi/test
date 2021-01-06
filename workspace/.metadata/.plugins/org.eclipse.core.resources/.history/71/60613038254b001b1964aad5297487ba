@@ -1,0 +1,10 @@
+package コレクション;
+
+import java.util.ArratList;
+public class Sample1 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

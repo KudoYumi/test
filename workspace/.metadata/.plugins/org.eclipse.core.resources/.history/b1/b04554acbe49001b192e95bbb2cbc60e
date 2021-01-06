@@ -1,0 +1,6 @@
+package exe05;
+
+public class Bar extends Foo{
+
+	public abstract void doit();
+}

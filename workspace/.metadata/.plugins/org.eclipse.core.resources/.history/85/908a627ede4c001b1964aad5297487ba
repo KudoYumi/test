@@ -1,0 +1,8 @@
+package youtubeラムダの話7;
+
+public class Test {
+	public void process() {
+		Sample sample = Factory.create();
+		sample.execute();
+	}
+}

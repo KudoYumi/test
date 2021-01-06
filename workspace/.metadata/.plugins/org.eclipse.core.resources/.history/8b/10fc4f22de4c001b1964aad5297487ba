@@ -1,0 +1,11 @@
+package youtubeラムダの話7main;
+
+import youtubeラムダの話7.Factory;
+import youtubeラムダの話7.Sample;
+
+public class Main {
+	public static void main(String[] args) {
+		Sample sample = Factory.create();
+		sample.execute();
+	}
+}

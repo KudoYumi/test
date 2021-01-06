@@ -1,0 +1,16 @@
+package exe07;
+
+public class Main {
+
+	public static void main(String[] args) {
+	//	Sample s = new Sample();
+	/* インタフェースは型情報のみだから
+	 * インスタンス化不可能
+	 */
+
+		Sample sam = new Impl();
+		sam.hoge();
+
+	}
+
+}

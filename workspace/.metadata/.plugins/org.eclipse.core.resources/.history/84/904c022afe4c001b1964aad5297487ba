@@ -1,0 +1,11 @@
+package youtubeラムダの話8_2;
+
+public class Main {
+	public static void main(String[] args) {
+		Item item = new Item()
+					.id("A100")  // new Item().id("")でidセットされ自分の参照戻り、
+					.name("B100G") //さらにそのnameメソッドでnameフィールドセットされ、また自分の参照戻り
+					.description("sample") //同様にその参照先のdescriptionメソッドでフィールドセットされ、、、
+					.price(1000);
+	}
+}

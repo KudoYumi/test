@@ -1,0 +1,14 @@
+package reflection2;
+
+public class Sample {
+	public void test(Object obj) { // Object型だから、何型かわからない
+
+		Class clazz = obj.getClass();
+	/* クラス名が明確なら「クラス名.class」クラスリテラル使って
+	 * クラスの定義情報取り出せたが、いまは何型かわからない。
+	 *
+	 * だからObject型が持っている、getClassメソッドを使って
+	 * クラスの定義情報を得る。
+	 */
+	}
+}

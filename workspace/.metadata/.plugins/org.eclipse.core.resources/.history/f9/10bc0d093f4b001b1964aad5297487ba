@@ -1,0 +1,15 @@
+package com.sample2;
+
+public class Factory {
+	public static Sample create() {
+		return new Factory().newInnerSample();
+	}
+
+
+	private class InnerSample implements Sample{ //Factory以外からはアクセス不可
+		@Override
+		public void execute() {
+			System.out.println("Inner Class");
+		}
+	}
+}

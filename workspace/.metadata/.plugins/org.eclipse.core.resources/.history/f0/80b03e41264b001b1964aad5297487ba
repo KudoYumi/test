@@ -1,0 +1,18 @@
+package コレクション;
+
+import java.util.ArrayList;
+public class Sample1 {
+
+	public static void main(String[] args) {
+		ArrayList<String> names = new ArrayList<String>();
+
+		names.add("たなか");
+		names.add("すずき");
+		names.add("さいとう");
+
+		for(String str:names) {
+			System.out.println(str);
+		}
+	}
+
+}

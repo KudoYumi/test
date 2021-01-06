@@ -1,0 +1,12 @@
+package youtube1;
+
+import java.util.List;
+
+public class Sample {
+	public void test(List list) { //このListの中にはStringしかないとすると
+		for(Object obj:list) {
+			String str = (String)obj; //Object型からString型へダウンキャスト
+			System.out.println(str);
+		}
+	}
+}

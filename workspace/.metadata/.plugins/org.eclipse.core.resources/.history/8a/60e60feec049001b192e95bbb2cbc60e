@@ -1,0 +1,11 @@
+package exe07;
+
+public class Calculation {
+	private double[] dt;
+
+	protected Calculation(double[] dt) {
+		this.dt = dt;
+	}
+
+	public abstract double calculate();
+}

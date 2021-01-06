@@ -1,0 +1,11 @@
+package exercise5;
+
+public class Main5 {
+
+	public static void main(String[] args) {
+		Adder num = new Adder(100);
+
+		System.out.println(num.getNumber());
+	}
+
+}

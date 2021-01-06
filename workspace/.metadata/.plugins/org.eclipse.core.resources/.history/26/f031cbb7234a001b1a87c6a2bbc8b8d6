@@ -1,0 +1,5 @@
+package exe01;
+
+class Foo implements Version{
+	public String getVersion() {return "Foo version";}
+}

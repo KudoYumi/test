@@ -1,0 +1,9 @@
+package exe08;
+
+public class SampleValue {
+	private final int value;
+
+	public SampleValue(int value) {
+		this.value = value;
+	}
+}

@@ -1,0 +1,13 @@
+package equalsの復讐;
+
+public class Main {
+	public static void main(String[] args) {
+		Item item = new Item()
+							.name("アセロラ")
+							.color("赤い")
+							.price(500);
+		//メソッドチェイン利用
+
+
+	}
+}

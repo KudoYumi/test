@@ -1,0 +1,9 @@
+package equalsの復讐;
+
+public class Main {
+	public static void main(String[] args) {
+		Item item = new Item()
+							.name("アセロラ")
+
+	}
+}

@@ -1,0 +1,17 @@
+package exe02;
+
+public class Member implements Comparable<Member>{
+	int id;
+	String name;
+
+	public Member(int id,String name) {
+		this.id = id;
+		this.name = name;
+	}
+
+/*	@Override
+	public int compareTo(Member mem) {
+		return Integer.compare(id,mem.id);
+	}
+	*/
+}

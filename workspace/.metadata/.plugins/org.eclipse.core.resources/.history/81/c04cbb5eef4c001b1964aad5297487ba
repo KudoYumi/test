@@ -1,0 +1,9 @@
+package youtubeラムダの話7main;
+
+public class Main2 { //Main1でラムダ式を用いたver
+
+	public static void main(String[] args) {
+
+	}
+
+}

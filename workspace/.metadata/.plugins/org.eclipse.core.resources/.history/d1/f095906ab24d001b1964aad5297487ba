@@ -1,0 +1,20 @@
+package reflection1;
+
+import java.lang.*;
+
+public class Main {
+	public static void main(String[] args) {
+
+		Class<Item> clazz = Item.class;
+	// メタ情報扱うためのクラスをClassとしてる。
+
+	/* Item.classのように クラス名.class で
+	 * クラスリテラルといって
+	 * クラスのメタ情報を取得するという構文。
+	 *
+	 * よってこれでクラスのメタ情報を取り出せた。
+	 */
+
+		Field[] fields = clazz.getDeclaredFields();
+	}
+}

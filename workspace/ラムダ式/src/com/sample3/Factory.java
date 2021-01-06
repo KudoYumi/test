@@ -1,0 +1,18 @@
+package com.sample3;
+
+//匿名クラス
+public class Factory {
+	public static Sample create() {
+		return new Sample() {
+			@Override						// interfaceのSampleを実装した
+			public void execute() {			//名無しのクラス生成し、
+				System.out.println("test");	//その名無しのクラスのインスタンスを扱う
+			}								//こういうことできるのが匿名クラス。
+		};
+	}
+}
+/* クラスの情報だけを持った無名クラスのインスタンス
+ * を生成できた。
+ * 中身だけを定義した6～11行目をもっとシンプルにしたのが
+ * ラムダ式。→「youtubeラムダの話4」へ。
+ */

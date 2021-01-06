@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Random"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="code06_02.CalcLogic"/>
-<fullyQualifiedTypeName name="code08_02.Hero"/>
-<fullyQualifiedTypeName name="code12_05.Monster"/>
-<fullyQualifiedTypeName name="code14_13.Hero"/>
-<fullyQualifiedTypeName name="java.util.AbstractCollection"/>
-<fullyQualifiedTypeName name="java.io.FileWriter"/>
-<fullyQualifiedTypeName name="java.io.FileReader"/>
-<fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.sample.Factory"/>
+<fullyQualifiedTypeName name="youtubeラムダの話4.Factory"/>
+<fullyQualifiedTypeName name="com.sample.Sample"/>
+<fullyQualifiedTypeName name="java.util.function.Consumer"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Method"/>
 </qualifiedTypeNameHistroy>

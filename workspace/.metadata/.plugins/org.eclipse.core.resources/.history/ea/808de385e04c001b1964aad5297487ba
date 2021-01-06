@@ -1,0 +1,7 @@
+package youtube1;
+
+public class Sample {
+	public void test(List list) {
+
+	}
+}

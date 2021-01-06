@@ -1,0 +1,9 @@
+package zoho_RPG18;
+
+abstract class Human {
+	String name;
+	String job;
+	int hp;
+	int mp;
+	double dmg;
+}

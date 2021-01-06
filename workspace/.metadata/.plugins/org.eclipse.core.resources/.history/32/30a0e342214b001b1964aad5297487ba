@@ -1,0 +1,11 @@
+package わかりやすいJava1演習問題;
+
+class Seiseki {
+
+	private String number;
+	private String name;
+	private int[] score;
+	private boolean attend;
+
+	public Seiseki
+}

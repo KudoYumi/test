@@ -1,0 +1,6 @@
+package exe02;
+import java.lang.*;
+
+public interface Comparable<T> {
+	int comparato(T obj);
+}

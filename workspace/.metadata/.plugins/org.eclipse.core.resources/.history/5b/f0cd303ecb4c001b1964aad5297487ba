@@ -1,0 +1,16 @@
+package exe08;
+
+import exe07.Super;
+
+public class Sub extends Super{
+	private int num;
+
+	public Sub(String name,int num) {
+		super(name);
+		this.num = num;
+	}
+
+	public void print() {
+		System.out.println(name);
+	}
+}

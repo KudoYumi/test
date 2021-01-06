@@ -1,0 +1,9 @@
+package クラス型をフィールドに設定;
+
+public class Main {
+	public static void main(String[] args) {
+		Sword s = new Sword("炎の剣",100);
+
+		Hero h = new Hero("みなと",500,s);
+	}
+}

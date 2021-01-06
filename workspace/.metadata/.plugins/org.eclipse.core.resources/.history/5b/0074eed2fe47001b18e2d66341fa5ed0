@@ -1,0 +1,20 @@
+package exercise5;
+
+public class Main5 {
+
+	public static void main(String[] args) {
+		Adder num = new Adder(100);
+		num.add();
+		num.add();
+
+		System.out.println(num.getNumber());
+
+		Adder a1 = new Adder(1000);
+		Adder.name="a1さん";
+
+		Adder a2 = new Adder(1001);
+		Adder.name="a2さん";
+		System.out.println(a2.name);
+	}
+
+}

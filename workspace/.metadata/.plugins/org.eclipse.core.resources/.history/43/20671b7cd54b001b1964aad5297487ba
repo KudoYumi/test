@@ -1,0 +1,9 @@
+package hoge;
+
+public class Exec {
+
+	public static void main(String[] args) {
+		Hero.money = 1000;
+	}
+
+}

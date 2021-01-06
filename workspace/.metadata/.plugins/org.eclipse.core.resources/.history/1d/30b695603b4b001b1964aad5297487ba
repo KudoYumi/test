@@ -1,0 +1,12 @@
+package commain;
+
+import com.sample.Sample;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Sample sam = new SampleImpl();
+		sam.execute();
+	}
+
+}

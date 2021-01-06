@@ -1,0 +1,7 @@
+package exe04;
+
+public class EnglishGreeting extends Greeting{
+	public void greet() {
+		System.out.println("hello");
+	}
+}

@@ -1,0 +1,9 @@
+package youtubeラムダの話8_2;
+
+public class Snippet {
+	public static void main(String[] args) {
+		import youtubeラムダの話7.Sample;
+		import youtubeラムダの話7.Test;
+	}
+}
+

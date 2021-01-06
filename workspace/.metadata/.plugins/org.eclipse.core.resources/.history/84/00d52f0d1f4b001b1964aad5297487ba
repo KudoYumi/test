@@ -1,0 +1,7 @@
+package exe01;
+
+public class First {
+	public First hello() {
+		return "hoge";
+	}
+}

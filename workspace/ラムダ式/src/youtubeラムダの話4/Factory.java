@@ -1,0 +1,11 @@
+package youtubeラムダの話4;
+
+//匿名クラス
+public class Factory {
+	public static Sample create() {
+		return () -> {
+			System.out.println("lambda");
+		};
+	//このラムダ式はinterfaceのSampleの中身がこういうことですって意味。
+	}
+}

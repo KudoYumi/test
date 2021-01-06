@@ -1,0 +1,25 @@
+package com.sample3;
+
+//匿名クラス
+public class Factory {
+	public static Sample create() {
+		return new Sample() {
+											// interfaceのSampleを実装した
+			@Override						//名無しのクラス生成し、
+			public void execute() {			//その名無しのクラスのインスタンスを扱う
+											//こういうことできるのが匿名クラス。
+			}
+		};
+
+	/* これでInnerクラスのインスタンスへの参照が作られて
+	 * その参照がSample型として戻せる。
+	 */
+	}
+
+	private class InnerSample implements Sample{ //Factory以外からはアクセス不可
+		@Override
+		public void execute() {
+			System.out.println("Inner Class");
+		}
+	}
+}

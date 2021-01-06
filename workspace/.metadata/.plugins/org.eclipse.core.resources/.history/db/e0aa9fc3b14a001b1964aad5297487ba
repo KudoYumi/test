@@ -1,0 +1,23 @@
+package exe10;
+
+class Sum extends Calculation{
+
+	public Sum(double[] dt) {
+		super(dt);
+	}
+
+	@Override
+	public double calculate() {
+		int sum=0;
+
+		for(int i=0; i<getDt().length; i++) {
+			sum += getDt()[i];
+		}
+
+		return
+	}
+
+	public double average() {
+		return
+	}
+}

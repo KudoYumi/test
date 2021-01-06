@@ -1,0 +1,8 @@
+package youtubeラムダの話5;
+
+public interface Sample {
+	public void execute();
+	//1つしか抽象メソッドないからラムダ式の中身をここに代入できるが、
+
+	public abstract void test();
+}

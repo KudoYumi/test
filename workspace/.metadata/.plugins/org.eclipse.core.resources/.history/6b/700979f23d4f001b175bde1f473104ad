@@ -1,0 +1,14 @@
+package extendsとstatic;
+
+public class A {
+	static int num = 10;
+
+	A(){
+		num++; // num=11に
+		System.out.println(num);
+	}
+
+	public static void hoge(int x) {
+		System.out.println(x++);
+	}
+}

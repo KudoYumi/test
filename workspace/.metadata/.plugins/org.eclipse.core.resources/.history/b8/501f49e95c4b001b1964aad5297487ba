@@ -1,0 +1,5 @@
+package ラムダ式01;
+
+public interface Sample {
+	public void execute();
+}

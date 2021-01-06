@@ -1,0 +1,15 @@
+package exe05;
+
+public class Exec {
+
+	public static void main(String[] args) {
+		Kakeibo[] kakei = {new Kakeibo("03-16","牛乳","飲料","スーパーX",180),
+								new Kakeibo("03-16","豚肉","食材","スーパーX",450),
+									new Kakeibo("03-20","野菜","食材","スーパーX",400)};
+
+		for(Kakeibo k:kakei) {
+			k.show();
+		}
+	}
+
+}

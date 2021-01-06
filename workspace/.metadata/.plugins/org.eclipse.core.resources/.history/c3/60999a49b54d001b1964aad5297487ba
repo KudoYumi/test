@@ -1,0 +1,8 @@
+package reflection2;
+
+public class Sample {
+	public void test(Object obj) { // Object型だから、何型かわからない
+
+		Class clazz = obj.getClass();
+	}
+}

@@ -1,0 +1,10 @@
+package exe03;
+
+public class Circle extends GeometricShape{
+	private double radius;
+
+	public Circle(String color,double radius) {
+		super(color);
+		this.radius = radius;
+	}
+}

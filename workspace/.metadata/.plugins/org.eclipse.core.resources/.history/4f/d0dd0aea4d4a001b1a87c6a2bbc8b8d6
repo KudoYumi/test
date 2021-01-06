@@ -1,0 +1,5 @@
+package exe02;
+
+public interface Comparable<T> {
+	int comparato(T obj);
+}

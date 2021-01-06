@@ -1,0 +1,29 @@
+package zoho_RPG18;
+
+import java.util.Random;
+
+class Wizard extends Human{
+
+	public Wizard(String name) {
+		super(name,"魔術師",50,50,0.5);
+	}
+
+	@Override
+	void attack(Monster m) {
+		if(m.hp>0) {
+			System.out.println(name+"は杖をふるった");
+			int actualDmg2 = (int)((new Random().nextInt(10)+1)*dmg);
+			m.hp -= actualDmg2;
+			System.out.println(name+"はモンスターに"+actualDmg2+"ダメージ与えた");
+		}
+	}
+
+	@Override
+	void magic(Monster m) {
+		if(m.hp>0 && this.mp>=10) {
+			System.out.println(name+"は呪文唱えた");
+
+		}
+	}
+
+}

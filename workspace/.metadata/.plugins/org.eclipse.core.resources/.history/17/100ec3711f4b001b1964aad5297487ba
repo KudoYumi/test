@@ -1,0 +1,8 @@
+package overrideの例外;
+
+public class First {
+
+	public First create() {
+		return new First();
+	}
+}

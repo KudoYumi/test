@@ -1,0 +1,9 @@
+package exe03;
+
+class Member {
+	private String name;
+	private String gender;
+	private int age;
+
+
+}

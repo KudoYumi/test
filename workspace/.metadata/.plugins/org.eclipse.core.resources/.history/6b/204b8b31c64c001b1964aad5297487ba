@@ -1,0 +1,13 @@
+package クラス型をフィールドに設定;
+
+class Hero {
+	String name;
+	int hp;
+	Sword sword;
+
+	public Hero(String name,int hp,Sword sword) {
+		this.name = name;
+		this.hp = hp;
+		this.sword = sword;
+	}
+}

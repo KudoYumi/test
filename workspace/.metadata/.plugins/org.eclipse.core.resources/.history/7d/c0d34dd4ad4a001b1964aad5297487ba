@@ -1,0 +1,8 @@
+package sample;
+
+public class SampleImpl implements Sample{
+
+	public void execute() {
+		System.out.println("Hello");
+	}
+}

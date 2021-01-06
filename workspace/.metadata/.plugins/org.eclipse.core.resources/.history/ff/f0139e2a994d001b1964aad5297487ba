@@ -1,0 +1,5 @@
+module Lib {
+	exports sample.Lib; //使われる側の設定
+
+	// Lib2は設定してないから非公開
+}

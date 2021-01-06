@@ -1,0 +1,11 @@
+package exe06;
+
+public class Student extends Member {
+	String studentNumber;
+
+	public Student(int id, String name,String studentNumber) {
+		super(id, name);
+		this.studentNumber=studentNumber;
+	}
+
+}

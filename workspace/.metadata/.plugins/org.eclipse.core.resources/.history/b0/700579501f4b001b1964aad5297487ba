@@ -1,0 +1,8 @@
+package overrideの例外;
+
+public class Second extends First{
+
+	public Second create() {
+		return new Second();
+	}
+}

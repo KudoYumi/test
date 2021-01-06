@@ -1,0 +1,9 @@
+package youtube1;
+
+import java.util.List;
+
+public class Sample {
+	public void test(List list) {
+
+	}
+}

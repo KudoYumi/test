@@ -1,0 +1,12 @@
+package youtubeラムダの話5;
+
+//匿名クラス
+public class Factory {
+	public static Sample create() {
+		Sample sample = () ->{
+			System.out.println("lambda");
+		};
+		return sample;
+	}
+	//4のラムダ式をわかりやすくしたコード。
+}

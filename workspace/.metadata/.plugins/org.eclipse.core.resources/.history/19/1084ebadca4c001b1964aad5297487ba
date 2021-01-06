@@ -1,0 +1,10 @@
+package exe08;
+
+public class Sub extends Super{
+	private int num;
+
+	public Sub(String name,int num) {
+		super(name);
+		this.num = num;
+	}
+}

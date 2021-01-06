@@ -1,0 +1,9 @@
+package exe03;
+
+import exe02.Foo;
+
+public class Bar extends Foo{
+	public void show() {
+		System.out.println("Barです");
+	}
+}

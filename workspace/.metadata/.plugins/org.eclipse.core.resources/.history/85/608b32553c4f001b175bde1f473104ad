@@ -1,0 +1,10 @@
+package extendsとstatic;
+
+public class B extends A{
+	int num = 100;
+
+	B(){
+		num++;
+		System.out.println(num);
+	}
+}

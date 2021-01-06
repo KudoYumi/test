@@ -1,0 +1,32 @@
+package zoho_1;
+
+public class Zoho12_3 {
+	static String[] name = {"山田","鈴木","佐々木","田中","小林"};
+	static String[] gender = {"男性","女性","男性","女性","男性"};
+	static int[] age = {20,37,45,31,52};
+	static String[] addr = {"東京","神奈川","東京","埼玉","埼玉"};
+
+	public static void main(String[] args) {
+
+
+	}
+
+	public static void view(String adress) {
+		for(int i=0; i<name.length; i++) {
+			if(adress.equals(addr[i])) {
+				System.out.println
+					((i+1)+"\t"+name[i]+"\t"+gender[i]+"\t"+age[i]+"\t"+addr[i]);
+			}
+		}
+	}
+
+
+	public static void view(String adress,String Gender) {
+		for(int i=0; i<name.length; i++) {
+			if((adress.equals(addr[i])) && (Gender.equals(gender[i]))){
+				System.out.println
+					((i+1)+"\t"+name[i]+"\t"+gender[i]+"\t"+age[i]+"\t"+addr[i]);
+			}
+		}
+	}
+}

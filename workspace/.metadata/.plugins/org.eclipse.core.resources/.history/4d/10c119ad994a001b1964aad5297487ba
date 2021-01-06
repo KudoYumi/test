@@ -1,0 +1,11 @@
+package exe07;
+
+public interface Sample {
+	void hoge();
+	//public abstractは省略
+
+	/* protectedはダメ！
+	 * publicな抽象メソッドだけがinterfaceには定義できる。
+	 *
+	 */
+}

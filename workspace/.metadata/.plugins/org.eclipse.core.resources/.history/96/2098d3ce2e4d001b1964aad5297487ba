@@ -1,0 +1,14 @@
+package youtubeラムダの話9;
+// メソッドチェイン用いたラムダ式の応用
+
+public class Main {
+	public static void main(String[] args) {
+		Item item = new Item()
+					.id("A100")
+					.name("B100G")
+					.description("sample")
+					.price(1000);
+	}
+
+
+}

@@ -1,0 +1,32 @@
+package equalsの復讐;
+
+public class Item {
+	private String name;
+	private String color;
+	private int price;
+
+	public Item name(String name) {
+		this.name = name;
+		return this;
+	}
+
+	public Item color(String color) {
+		this.color = color;
+		return this;
+	}
+
+	public Item price(int price) {
+		this.price = price;
+		return this;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if(((Item)obj).name == this.name
+				&& ((Item)obj).color == this.color) {
+			return true;
+		}else {
+			return false;
+		}
+	}
+}

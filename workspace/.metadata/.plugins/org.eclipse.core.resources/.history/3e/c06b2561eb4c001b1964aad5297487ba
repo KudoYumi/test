@@ -1,0 +1,12 @@
+package youtubeラムダの話7;
+
+public class Test {
+	public void process() {
+		System.out.println("start"); //不変のコード
+
+	//	Sample sample = Factory.create();
+	//	sample.execute();  この2行が可変だとする。
+
+		System.out.println("end"); //不変のコード
+	}
+}

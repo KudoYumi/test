@@ -1,0 +1,9 @@
+package exe10;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Sum sum = new Sum({0.5, 1.5, 2.5, 3.5}) ;
+	}
+
+}
