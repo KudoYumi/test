@@ -1,0 +1,5 @@
+package interfaceとcast;
+
+class X {
+
+}
